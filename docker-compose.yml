@@ -19,3 +19,8 @@ services:
     - "traefik.frontend.entryPoints=http,https"
     - "traefik.frontend.redirect.entryPoint=https"
     restart: unless-stopped
+    logging:
+      driver: "local"
+      options:
+        max-size: "30m"
+        max-file: "2"
