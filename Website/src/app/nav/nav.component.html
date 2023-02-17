@@ -1,0 +1,17 @@
+<mat-toolbar class="app-toolbar" >
+  <img src="assets/images/codemooc.png">
+  <span class="example-spacer"></span>
+  <button mat-button class="nav-button" (click)="navigate('guide')">
+    <!--<span>{{ "NAV.HOME" | translate }}</span>-->
+  </button>
+
+  <button mat-icon-button class="example-icon nav-icon-button" aria-label="Example icon-button with menu icon" [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="navigate('guide')">
+      <mat-icon>home</mat-icon>
+      <span>{{ "NAV.HOME" | translate }}</span>
+    </button>
+  </mat-menu>
+</mat-toolbar>

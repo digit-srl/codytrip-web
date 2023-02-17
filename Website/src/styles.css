@@ -1,0 +1,171 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/assets/fonts/variable/OpenSans-VariableFont_wdth,wght.ttf') format("truetype-variations");
+  font-weight: 1 999;
+}
+
+@font-face {
+  font-family: 'Open Sans Italic';
+  src: url('/assets/fonts/variable/OpenSans-Italic-VariableFont_wdth,wght.ttf') format("truetype-variations");
+  font-weight: 1 999;
+}
+
+/* COLOR STYLES */
+.green-icon {
+  color: green;
+}
+
+html, body {
+  height: 100%;
+  background: #fbfbfb;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.main-container {
+  padding-top: 50px;
+}
+.container {
+  max-width: 1000px;
+  margin: 2em auto 0 auto;
+  text-align: left;
+  padding: 5px 30px 10px 30px;
+}
+
+.mat-card {
+  padding: 5px;
+}
+
+.mat-form-field-infix {
+  width: fit-content !important;
+}
+
+.map-container {
+  width: auto !important;
+}
+
+.page-title {
+  display: block;
+  font-weight: bold;
+  font-size: 2em;
+  color: rgb(220, 120, 50);
+  text-align: center;
+  margin: 0 0 60px 0;
+}
+
+.page-secondary-title {
+  display: block;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: rgb(220, 120, 50);
+  text-align: left;
+  margin: auto;
+}
+
+p {
+  padding-top: 10px;
+  font-size: 1.3em;
+  line-height: 140%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+p.content {
+  margin-top: 20px;
+}
+
+.section button {
+  color: rgb(220, 120, 50);
+  color: white;
+}
+
+.header-box-content button {
+  color: rgb(220, 120, 50);
+  color: white;
+}
+
+.image {
+  width: 100%;
+  align-content: center;
+  text-align: center;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.header-box-title {
+  color: rgb(220, 120, 50);
+  color: white;
+  margin: 20px;
+  align-content: center;
+  text-align: center;
+  object-fit: contain;
+}
+.header-box-title h1 {
+  padding: 50px 10px;
+  font-weight: bold;
+  font-size: 3em;
+}
+.header-box-link a:link {
+  text-decoration: none;
+}
+.header-box-link a:visited {
+  text-decoration: none;
+}
+.header-box-link a:hover {
+  text-decoration: none;
+}
+.header-box-link a:active {
+  text-decoration: none;
+}
+
+.header-box-content {
+  margin: 20px;
+}
+
+.rounded-container {
+  padding: 5px !important;
+  border-width: 1px;
+  border-style: solid;
+  color: rgb(220, 120, 50);
+  border-radius: 10px;
+}
+
+.rounded-container-header {
+}
+
+.rounded-container-body {
+  border-top: 1px solid rgb(220, 120, 50);
+}
+.bold {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-only {
+    display: inherit;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .mobile-only {
+    display: none;
+  }
+
+  .desktop-only {
+    display: inherit;
+  }
+}

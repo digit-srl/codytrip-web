@@ -1,0 +1,21 @@
+version: '3'
+networks:
+  web:
+    external: true
+
+services:
+  website:
+    build: ./Website
+    networks:
+    - web
+    expose:
+    - "80"
+    labels:
+    - "traefik.enable=true"
+    - "traefik.docker.network=web"
+    - "traefik.protocol=http"
+    - "traefik.port=80"
+    - "traefik.frontend.rule=Host:codytrip.it"
+    - "traefik.frontend.entryPoints=http,https"
+    - "traefik.frontend.redirect.entryPoint=https"
+    restart: unless-stopped

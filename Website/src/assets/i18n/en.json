@@ -1,0 +1,508 @@
+{
+  "FLAG_YES": "Yes",
+  "FLAG_NO": "No",
+  "NAV": {
+    "HOME": "Home",
+    "VOLUNTEERS": {
+      "TITLE": "Volunteers",
+      "WHO_ARE": "About",
+      "APPLICATIONS": "How to earn WOMs"
+    },
+    "ABOUT": {
+      "TITLE": "About",
+      "ABOUT": "About",
+      "URBINO": "Wom for Urbino"
+    },
+    "INSTRUMENT": "Instrument",
+    "CONTACTS": "Contact Us",
+    "SIGN_IN": "Login",
+    "PROFILE": "Profile",
+    "MERCHANT": "Merchant",
+    "SIGN_OUT": "Log out",
+    "LOGOUT_DIALOG": {
+      "TITLE": "Log out",
+      "CONTENT": "Do you want to log out?",
+      "CONFIRM": "Ok",
+      "CANCEL": "Cancel"
+    }
+  },
+  "BREADCRUMBS": {
+    "HOME": "Home",
+    "ABOUT": {
+      "TITLE": "About",
+      "ABOUT": "About",
+      "URBINO": "Wom for Urbino"
+    },
+    "VOLUNTEER": "Volunteers",
+    "MERCHANT": "Merchant",
+    "INSTRUMENT": "Instrument",
+    "CONTACTS": "Contact us",
+    "USER" : {
+      "USER": "Your profile",
+      "MERCHANT": "Merchant",
+      "ERROR": "Not verified",
+      "HOME": "Home",
+      "VERIFY": "Verify",
+      "MERCHANT-STATS": "Statistics"
+    },
+    "MANAGE": {
+      "TITLE": "Manage",
+      "HOME": "Overview"
+    },
+    "AUTHENTICATION": {
+      "AUTHENTICATION": "Authentication",
+      "SIGNIN": "Sign in",
+      "SIGNUP": "Sign up",
+      "RESET_PASSWORD": "Password recovery",
+      "NEW_PASSWORD": "Request new password"
+    },
+    "APPLICATIONS": {
+      "APPLICATIONS": "Applications",
+      "OVERVIEW": "Overview",
+      "STEPCOUNTER": "Stepcounter",
+      "UNIVERSITIES": "Universities",
+      "AWORLD": "AWorld",
+      "CODYMAZE": "CodyMaze",
+      "BALANCE": "Balance"
+    },
+    "PRIVACY": {
+      "PRIVACY": "Privacy policy",
+      "OVERVIEW": "Overview",
+      "POS": "Point of Service",
+      "POCKET": "Pocket",
+      "INSTRUMENT": "Instrument",
+      "STEPCOUNTER": "Stepcounter"
+    },
+    "BILLING": {
+      "TITLE": "Buy",
+      "INSTRUMENT": {
+        "TITLE": "Instrument",
+        "PLANS": "Plans"
+      },
+      "MERCHANT": {
+        "TITLE": "Merchant",
+        "PLANS": "Plans"
+      },
+      "CHECKOUT": "Checkout",
+      "SUCCESS": "Payment complete",
+      "ERROR": "Payment error"
+    }
+  },
+  "SIGN_IN": {
+    "TITLE": "Sign in to the WOM platform",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "BTN_SIGN_IN": "Login",
+    "BTN_FORGOT_PASSWORD": "Forgot your password?",
+    "BTN_SIGN_UP": "Sign up",
+    "ERR": {
+      "LOGIN": "The username and/or password were not recognised",
+      "EMAIL": "Please provide a valid email address",
+      "PASSWORD": "Please provide a valid password"
+    }
+  },
+  "SIGN_UP": {
+    "TITLE": "Sign up to the WOM Platform",
+    "SUBTITLE": "Fill in the form below to sign up to the <b>WOM&nbsp;Platform</b>.",
+    "BTN_ALREADY_REGISTERED": "Already registered?",
+    "NEXT": "Next",
+    "BACK": "Back",
+    "DONE": "Done",
+    "REPRESENTATIVE": {
+      "STEPPER_TITLE": "Personal data",
+      "TITLE": "Representative",
+      "EMAIL": "Email Address",
+      "EMAIL_ERROR": "Please provide a valid email address",
+      "PASSWORD": "Password",
+      "REPEAT_PASSWORD": "Repeat password",
+      "PASSWORD_ERROR": "Please provide a valid password",
+      "PASSWORD_NO_MATCH_ERROR": "Passwords do not match",
+      "NAME": "First Name",
+      "NAME_ERROR": "Please provide your name",
+      "SURNAME": "Last Name",
+      "SURNAME_ERROR": "Please provide your surname"
+    },
+    "MERCHANT": {
+      "TITLE": "MERCHANT",
+      "STEPPER_TITLE": "Merchant registration",
+      "CHECKBOX": "Register a merchant",
+      "NAME": "Merchant/Business Name",
+      "NAME_ERROR": "Please provide a valid name for the Merchant - 8 characters minimum",
+      "CF": "Italian fiscal code",
+      "CF_ERROR": "Please provide a valid fiscal code",
+      "OPTIONAL_TEXT": "Main address of your business.",
+      "ADDRESS": "Address",
+      "ADDRESS_ERROR": "Please enter an address",
+      "CAP": "CAP/City code",
+      "CAP_ERROR": "Please enter the cap/city code",
+      "CITY": "City",
+      "CITY_ERROR": "Please enter the merchant's city",
+      "SELECT_COUNTRY": "Select country",
+      "SELECT_COUNTRY_ERROR": "Please select your merchant's country",
+      "BUSINESS": "Select primary business",
+      "BUSINESS_ERROR": "Please select a primary business",
+      "WEBSITE": "Website, ex.: http://www.example.com",
+      "OPTIONAL_WEBSITE_TEXT": "<i>Optional.</i>\nWeb site of your business.",
+      "URL_ERROR": "Make sure your website address is correct and starts with http or https",
+      "DESCRIPTION": "Description",
+      "DESCRIPTION_ERROR": "Please provide a short description for your merchant",
+      "DESCRIPTION_TEXT": "Short description of your business and how you intend to monetize WOM Vouchers (goods or services)."
+    },
+    "POS": {
+      "TITLE": "Your Point of Service",
+      "CHECKBOX": "Register your Point Of Service (POS)",
+      "SUBTITLE_A": "Fill out this part of the form in order to create a <b>Point of Service</b>&nbsp;(POS) instance for your Merchant account. You will be able to receive WOM payments straight away using your POS.",
+      "SUBTITLE_B": "",
+      "IS_ACTIVE_TEXT": "De-select to disable this POS",
+      "NAME": "Name",
+      "NAME_ERROR": "Please insert a name for your POS",
+      "NAME_TEXT": "POS name, will be shown to users while performing a payment.",
+      "MAP_TITLE": "",
+      "LAT": "Latitude",
+      "LON": "Longitude",
+      "LAT_LON_ERROR": "Please select a location on the map",
+      "URL": "URL",
+      "URL_OPTIONAL_TEXT": "<i>Optional.</i>\nWill be shown to users when the payment is confirmed. Can be used to show more information about the POS of the Merchant."
+    },
+    "TERMS_CONDITIONS_TITLE": "Terms & Conditions",
+    "TERMS_CONDITIONS": "Accept terms and conditions",
+    "TC_ERROR": "Please accept the terms and conditions",
+    "BTN_SIGN_UP": "Sign Up",
+    "FISCAL_CODE_EXISTS_ERROR": "The merchant's fiscal code has already been used",
+    "EMAIL_EXISTS_ERROR": "This email address has already been used or the selected password is too weak.",
+    "GENERIC_ERROR": "There are errors in the form data",
+    "FORM_ERROR": "Error - check all fields and try again",
+    "TIMEOUT_ERROR": "Server is taking too long to respond - make sure your internet connection is stable and try again"
+  },
+  "USER": {
+    "HOME": {
+      "WELCOME": "Welcome",
+      "MERCHANT_TITLE": "Merchant"
+    },
+    "MERCHANT": {
+      "WELCOME": "Welcome",
+      "MERCHANT_TITLE": "Your Merchants",
+      "ADD_MERCHANT_TOOLTIP": "Add a new Merchant",
+      "EDIT_MERCHANT_TOOLTIP": "Edit this merchant's data",
+      "ENABLED_MERCHANT_TOOLTIP": "This merchant is ready to accept WOM!",
+      "NOT_ENABLED_MERCHANT_TOOLTIP": "Merchant not enabled - click here for further information",
+      "EDIT_MERCHANT_BTN": "Edit",
+      "MERCHANT": {
+        "NAME": "Merchant",
+        "CODE": "Fiscal code",
+        "ADDRESS": "Address",
+        "ACTIVITY_TYPE": "Primary activity",
+        "URL": "Website",
+        "POS_TITLE": "POS",
+        "POS_SUBTITLE": "List of POS",
+        "ADD_POS_TOOLTIP": "Add a new Point of Service 'POS' for Merchant",
+        "SEND_ACTIVATION_REQUEST": "Request activation",
+        "SEND_ACTIVATION_REQUEST_CONFIRM": "Your request has been sent! We will take care of it within the next 48 hours."
+      }
+    },
+    "STATS": {
+      "DATE_SELECTOR": {
+        "TITLE": "Select the date range",
+        "START": "Start date",
+        "END": "End date",
+        "HINT": "MM/DD/YYYY – MM/DD/YYYY",
+        "CANCEL": "Cancel",
+        "APPLY": "Apply"
+      }
+    },
+    "ERRORS": {
+      "MERCHANT_LIST_401": "Can't get the merchant list: Unauthorized",
+      "MERCHANT_LIST_404": "Can't get the merchant list: Not found",
+      "MERCHANT_LIST_GENERIC": "Can't get the merchant list: Unknown Error"
+    },
+    "VERIFY": {
+      "TITLE": "User verification",
+      "VERIFYING": "Checking to see if user is verified...",
+      "VERIFIED": "User verified!",
+      "GO_HOME_BUTTON": "Click here",
+      "GO_HOME_TEXT": "To go to your profile.",
+      "NOT_VERIFIED": "Your verification token has expired or there was an error validating your account.",
+      "GO_SIGNIN_BUTTON": "Login"
+    },
+    "NOT_VERIFIED": {
+      "TITLE": "Please verify your account by clicking on the link that you received in your email.",
+      "SUBTITLE": "Didn't receive the email?",
+      "SEND_EMAIL_LINK": "Click here",
+      "SEND_EMAIL_TEXT": "to receive another one for",
+      "EMAIL_SENT": "Verification email sent!"
+    },
+    "ADD_MERCHANT": {
+      "TITLE": "Add a new merchant",
+      "CANCEL": "Cancel",
+      "ADD": "Add",
+      "SUCCESS": "Merchant added",
+      "INPUT_ERROR": "Please fill out the form",
+      "API_ERROR": "There are errors in the form or there is a problem contacting the server. Check the data and try again."
+    },
+    "EDIT_MERCHANT": {
+      "TITLE": "Edit merchant",
+      "CANCEL": "Cancel",
+      "ADD": "Confirm",
+      "SUCCESS": "Merchant edited",
+      "INPUT_ERROR": "Please fill out the form",
+      "API_ERROR": "There are errors in the form or there is a problem contacting the server. Check the data and try again."
+    },
+    "ADD_POS": {
+      "TITLE": "Add a new Point Of Service",
+      "CANCEL": "Cancel",
+      "ADD": "Add",
+      "SUCCESS": "POS added!",
+      "INPUT_ERROR": "Please fill out the form and make sure you have selected a location on the map.",
+      "API_ERROR": "There are errors in the form or there is a problem contacting the server. Check the data and try again."
+    },
+    "EDIT_POS": {
+      "ADD": "Edit",
+      "TITLE": "Update your Point Of Service",
+      "SUCCESS": "POS updated!",
+      "CANCEL": "Cancel",
+      "API_ERROR": "There are errors in the form or there is a problem contacting the server. Check the data and try again.",
+      "INPUT_ERROR": "Please fill out the form and make sure you have selected a location on the map."
+    }
+  },
+  "RESET_PASSWORD": {
+    "TITLE": "Password reset",
+    "RESET_BUTTON": "Update password",
+    "SNACKBAR_SUCCESS": "Password updated!",
+    "SNACKBAR_HOME": "Click here to login",
+    "EXPIRED_LINK_ERROR": "The link used to reset your password has expired."
+  },
+  "REQUEST_NEW_PASSWORD": {
+    "TITLE": "Request a new password",
+    "REQUEST_BUTTON": "Send request",
+    "REQUEST_SENT": "Request sent! Check your email",
+    "HOME": "Home"
+  },
+  "GENERIC": {
+    "BUTTON": {
+      "MORE": "Learn more"
+    }
+  },
+  "HOME": {
+    "SECTION_INTRO": {
+      "A": "<b>WOM - “Worth One Minute”</b> is a general-purpose rewarding platform based on a voucher exchange system. \nMany actions and activities made by individuals have an intrinsic social value, an effect known as <b>“positive externalities”</b> in economics. \nWOM aims to recognize all those actions that are a socially valuable contribution to a common goal and <b>reward the time people dedicate to them</b> by generating social digital vouchers. \nWOM vouchers reward every minute of a social effort. \n",
+      "B": "The WOM platform is implemented and managed by DIGIT srl. \nDIGIT srl is a <b>spin-off of the University of Urbino</b> that aims to <b>create social value through digital awareness</b>. It is founded on the conviction that the core of technology, platforms and, software need to be in the interest of human people and society and that social and digital innovation are related. \nWOM is only one of the social projects of DIGIT srl. \n"
+    },
+    "SECTION_VOL": {
+      "TITLE": "Volunteers",
+      "MESSAGE": "By making socially valuable actions, every user gains WOM and becomes a <b>Volunteer</b>. Volunteers can manage their WOM vouchers by a mobile app, the <b>“WOM Pocket”</b>. They can install it on their device. The application allows volunteers to gather their vouchers, store them, and spend them."
+    },
+    "SECTION_MERCH": {
+      "TITLE": "Merchant",
+      "MESSAGE": "Local shops can take part in the project by becoming <b>Merchants</b>. Merchants are system components that can <b>create payment instances</b>. They can accept WOM vouchers in exchange for services and discounts. Merchants use a different application, the <b>“WOM POS”</b>, or a custom integration software. These software components allow merchants to create new transactions, applying filters to collected WOM vouchers.\n"
+    },
+    "SECTION_INSTR": {
+      "TITLE": "Instrument",
+      "MESSAGE": "<b>Instruments</b> are owners of social activities or an initiative with a social aim recognized by the platform. Instruments <b>allow volunteers to take social actions</b>.\nOwners of this type of activity, such as non-profit organizations, associations, or private individuals, may contact info@wom.social to be evaluated by the platform’s ethical committee and added to the list of <b>WOM Instruments</b> that can generate vouchers and reward contributors. \n"
+    },
+    "SECTION_REG": {
+      "TITLE": "Registry",
+      "MESSAGE": "The Registry is the central entity that <b>generates WOMs</b> requested by an Instrument, it <b>verifies their authenticity</b> when they are used by a Merchant and it makes sure they <b>can't be duplicated</b> or used twice."
+    },
+    "SECTION_TECH": {
+      "TITLE": "Technical",
+      "MESSAGE": "WOM is an <b>open technology</b> provided as open source software, released under the <a href=\"https://opensource.org/licenses/MIT\">MIT&nbsp;license</a>.\n          It is developed in the open on GitHub, <a href=\"https://github.com/WOM-Platform\">take a look</a>."
+    },
+    "SECTION_CONTACT": {
+      "TITLE": "Stay in touch! \uD83D\uDCEB",
+      "MESSAGE": "To develop new WOM integrations, POS connectors, or any other inquiry, please contact <a href=\"mailto:info@wom.social\">info@wom.social</a>."
+    }
+  },
+  "ABOUT": {
+    "TITLE": "The WOM platform",
+    "SECTION_A": {
+      "A": "WOM stands for <b>Worth One Minute</b> and is a <b>general-purpose rewarding platform based on a voucher exchange system</b> that rewards the positive impact of actions and activities done by people that contribute to a <b>common good</b>.",
+      "B": "Many actions have an <b>intrinsic social value</b>, an effect known as “positive externalities” in economics. WOM recognizes the impact of those actions and provides a tool to reward these positive externalities by <b>issuing WOMs</b>."
+    },
+    "SECTION_A_2": {
+      "TITLE": "What are WOMs",
+      "A": "WOMs are <b>digital vouchers</b> designed to recognize the value of actions having such a positive effect. Each WOM voucher rewards <b>one minute of socially-valuable effort performed by an individual</b>.",
+      "B": "The WOMs vouchers are <b>anonymous</b>. The only data they store is related to their social purpose and where and when they generate.\nWOM vouchers do not have value in <b>“real” fiat money</b>. They are proof of a socially-valuable effort that an individual contributed towards a shared cause.",
+      "C": "The <b>Registry</b> manages the voucher exchange and keeps track of the creation and consumption of WOMs.\nThe WOM platform is a <b>centralized system</b>. The Registry represents the <b>authority</b> that manages the exchange of cryptographic keys (which allow the secure exchange of information) and verifies that vouchers are earned and spent correctly. \nThe Registry <b>does not store the identity of users and their data</b>. WOM vouchers are anonymous, and their use is not tracked."
+    },
+    "SECTION_B": {
+      "TITLE": "How do I earn WOMs?",
+      "A": "WOM vouchers are gained by voluntarily performing socially-valuable work. Each minute of effort is worth one WOM. For the generation of WOM, <b>the performed activity must be officially recognized by the WOM platform</b>.",
+      "B": "To be recognized, activity or initiative must be evaluated as socially valuable and thus approved by the WOM platform ethical committee.\n"
+    },
+    "SECTION_C": {
+      "TITLE": "How do I use my WOMs?",
+      "A": "Business owners, shopkeepers, public entities, or any other private citizen (generically called Merchants) may freely decide to provide goods, services, or discounts to owners of WOM vouchers. To do so, they create a <b>WOM payment</b> that allows them to choose which kind of effort to reward: WOM vouchers can be filtered by purpose, location, and time. Goods, services, and discounts can be determined freely by the Merchant."
+    },
+    "URBINO": {
+      "TITLE": "WOM FOR URBINO",
+      "SECTION_A": {
+        "A": "Questa sezione è dedicata a <b>WOM per Urbino</b>, il progetto che da <b>maggio 2022</b> è stato avviato nella città di <b>Urbino</b>.\n<b>WOM per Urbino</b> è la prima forma di sperimentazione del progetto WOM. La scelta di Urbino come <b>prima città ad utilizzare WOM</b> deriva dalla collaborazione di <b>DIGIT srl</b>, <b>Università di Urbino</b> e <b>Città di Urbino</b>, che ha concesso il suo patrocinio.",
+        "B": "Il progetto è stato lanciato dal <b>4 maggio 2022</b> tramite una conferenza stampa (per rivedere la conferenza <a href='https://youtu.be/1kiTku77HO4' target='_blank'>Clicca qui</a>).\nAttualmente i cittadini, gli studenti e i turisti hanno varie possibilità di ottenere <b>WOM</b> e di utilizzarli per ottenere <b>sconti</b> nei negozi convenzionati al progetto.  "
+      }
+    }
+  },
+  "VOLUNTEER": {
+    "TITLE": "Volunteers",
+    "SECTION_A": {
+      "TITLE": "How does it work for users?",
+      "A": "Many actions and activities done by an individual contribute to a common good and have an intrinsic social value. By making those socially valuable actions, every user gains WOMs and becomes a <b>Volunteer</b>. \nVolunteers can use WOM vouchers to obtain services or goods provided by Merchants. Every Volunteer can collect all the vouchers gained on the app <b>\"WOM Pocket\"</b>."
+    },
+    "SECTION_B": {
+      "TITLE": "Pocket",
+      "A": "Volunteers can manage their WOM vouchers by a mobile app, the <b>\"WOM Pocket\"</b>. This app allows users to <b>collect their earned WOM vouchers</b>, keep them (as if they were in a virtual “wallet”) and spend their vouchers.\n\nThe WOM platform <b>has no cost</b> for the Volunteers and they can freely download the <b>Pocket</b> app from the <b>Android</b> and <b>iOS</b> stores.\n"
+    }
+  },
+  "MERCHANT": {
+    "TITLE": "Merchants",
+    "FILTERS": {
+      "SEARCH": {
+        "TITLE": "Search in a specific place:",
+        "PLACEHOLDER": "Address, City, ..."
+      },
+      "BTN_SEARCH": "Search"
+    },
+    "SECTION_A": {
+      "TITLE": "Where do i spend my WOMs? How can I reward socially useful actions with WOMs?",
+      "A": "Merchants are system components that can <b>create payment instances</b>. They can accept WOM vouchers in exchange for the services and discounts they offer. \nMerchants can <b>choose what type of vouchers they accept</b>. They can choose: vouchers generated only for a <b>given purpose</b> (thus promoting that social purpose), those generated in a given <b>geographical area</b> (thus encouraging social actions in their reality territorial), or those generated in a <b>defined time interval</b>. \nThe payment instances <b>do not involve money exchanges</b> but only discounts and gratuities.",
+      "B": "By accepting specific types of WOM vouchers, Merchants can indirectly contribute to a social campaign, encouraging citizens to contribute to the shared goal with their voluntary efforts. Also, merchants can increase their visibility to the community working towards the shared goal.",
+      "C": "Want to be a merchant? Sign in <a href='/authentication/signin'>here</a>"
+    },
+    "SECTION_B": {
+      "TITLE": "POS",
+      "A": "The tool Merchants can use to accept WOM payment is the app <b>“WOM POS” (Point of Sale)</b> or a custom integration software. These software components allow merchants to create new transactions, applying filters to collected WOM vouchers.\n",
+      "B": "The WOM platform <b>has no cost</b> for the Merchant that wants to use it <b>anonymously</b>. Merchants can freely download the <b>app POS</b> from the <b>Android</b> and <b>iOS</b> stores. There are <b>no transaction costs</b>. \nIf Merchants want to make <b>their offers more visible</b> and have <b>periodic reports</b> of the social value they have helped to generate, they can select <b>paid services</b>."
+    }
+  },
+  "INSTRUMENT": {
+    "TITLE": "Instrument",
+    "SECTION_A": {
+      "TITLE": "How can I generate WOMs?",
+      "A": "<b>Instruments</b> are system components <b>recognized by the WOM platform</b> and <b>approved by an ethical committee</b>. They can <b>generate vouchers and reward contributors</b>. \nAll owners of social activity or an initiative that allows volunteers to take social action can become Instruments and add to the list of <b>WOM Instruments</b>. \n",
+      "B": "Each Instrument <b>allows the pursuit of one of the social objectives identified by the WOM platform</b> (for example, initiatives for public health, activities for the defense of social rights or the protection of the artistic and cultural heritage, etc.). These objectives are called <b>aims</b>.",
+      "C": "The placing on the platform of <b>new Instruments</b> for the release of WOMs <b>has costs</b> related to the review process by the ethics and technical committees, the development of the connectors, and the maintenance of the WOM generation service."
+    },
+    "STATS": {
+      "AVAILABLE": "WOMs in circulation"
+    }
+  },
+  "CONTACTS": {
+    "TITLE": "Contacts",
+    "SEND_SUCCESS": "Sent!",
+    "SEND_ERROR": "There was an error sending the request. Please try again.",
+    "FORM_ERROR": "There seems to be something missing in the form.",
+    "SEND": "Send",
+    "FORM": {
+      "TITLE": "Have any questions? Fill out the form below to reach out to us!",
+      "SENDER_NAME": "Name",
+      "SENDER_EMAIL": "E-mail address",
+      "SUBJECT": "E-mail subject",
+      "CONTENT": "Write your message here",
+      "NO_TEXT_ERROR": "Required field",
+      "EMAIL_ERROR": "Please enter a valid email address"
+    }
+  },
+  "TERMS_CONDITIONS": {
+    "MAIN_TEXT": "Welcome to the WOM platform!\n\n The following is in italian language only.  \n\nI termini e le condizioni seguenti indicano regole e normative per l’utilizzo del sito di DIGIT srl, all’indirizzo https://wom.social.\n\nAccedendo a questo sito, Lei accetta i termini e le condizioni seguenti. Le chiediamo di non continuare a registrarti al servizio WOM nel caso in cui non fosse d’accordo con tutti i termini e le condizioni in questa pagina.\n\nLicenza:\n\nA meno che indicato altrimenti, DIGIT srl e/o gli affiliati con licenza detengono i diritti di proprietà intellettuale per tutto il materiale su WOM. Tutti i diritti di proprietà intellettuale sono riservati. \n\nIl presente accordo ha inizio dalla data di registrazione.\n\nResponsabilità sui contenuti:\n\nNon possiamo essere ritenuti responsabili per i contenuti presenti sul Suo sito. Accetta di proteggerci e difenderci da qualsiasi azione legale proveniente dal Suo sito. Non devono essere aggiunti collegamenti sul Suo sito che potrebbero essere interpretati come calunniosi, osceni, criminali o che infrangono, violano o suggeriscono la violazione di diritti di terzi.\n\nDiritti riservati:\n\nCi riserviamo il diritto di richiedere la rimozione di tutti i collegamenti o di un collegamento specifico al nostro sito. Deve approvare immediatamente la richiesta di rimozione dei collegamenti. Ci riserviamo il diritto di modificare termini e condizioni, oltre che politica di collegamento in qualsiasi momento. Continuando a usare il nostro sito, accetta di essere vincolato dai presenti termini e condizioni.\n\nRimozione di collegamenti dal nostro sito:\n\nNel caso in cui un collegamento sul nostro sito sia offensivo per qualsiasi motivo, può contattarci e informarci in qualsiasi momento. Considereremo le richieste di rimozione dei collegamenti, tuttavia non siamo obbligati a completare la rimozione o rispondere direttamente.\n\nNon garantiamo l’accuratezza delle informazioni presenti sul sito. Non garantiamo che le informazioni siano complete o precise, né promettiamo di assicurare che il sito resti disponibile o che il materiale sul sito venga costantemente aggiornato.\n\nEsclusione di responsabilità:\n\nNella misura massima consentita dalla legge, escludiamo ogni rappresentanza, garanzia e condizione correlata al nostro sito e all’uso dello stesso. \n\nLe limitazioni e i divieti di responsabilità indicati in questa sezione e in altre parti di questa esclusione di responsabilità: (a) sono soggetti al paragrafo precedente; (b) governano tutte le responsabilità correlate a questa esclusione di responsabilità, incluse quelle correlate a contratto, torto o violazione di obblighi normativi.\n\nSe sito, informazioni e servizi vengono forniti gratuitamente, non possiamo essere ritenuti responsabili per perdite o danni di qualsiasi natura.\n"
+  },
+  "PRIVACY": {
+    "SIDENAV": {
+      "TITLE": "Applications",
+      "OVERVIEW": "Overview"
+    },
+    "OVERVIEW": {
+      "TITLE": "PRIVACY POLICIES",
+      "MAIN_CONTENT": "You can find all the privacy policies for the WOM Platform and its applications in the side menu."
+    },
+    "STEPCOUNTER": {
+      "TITLE": "‘WOM Stepcounter’ privacy policy",
+      "CONTENT": [
+        "<p>This privacy policy is conform to the General Data Protection Regulation&nbsp;(“GRPD”) 2016/679 and national data protection laws in Italy. It contains all information about the collection and treatment of data by the <strong>“WOM Stepcounter”</strong> application (from now “the app”).</p>",
+        "<p>The app enables the conversion of effort towards personal health and fitness into anonymous vouchers, through the “WOM Platform”.</p>",
+        "<h2>1. Data controller</h2>",
+        "<p>The data controller, that is the entity that determines the purposes and the means of the processing of personal data, is DIGIT s.r.l., with registered address Corso Giuseppe Garibaldi&nbsp;66, 61029, Urbino&nbsp;(PU).</p>",
+        "<p>Digit s.r.l. is a <em>spin-off</em> of Università degli Studi di Urbino “Carlo Bo” (University of Urbino, Italy).</p>",
+        "<h2>2. Data subject to processing</h2>",
+        "<p>The app locally collects and locally processes data of the user’s fitness activities, such as they are exposed by the platform on which the app is installed by the user (Google Fitness for Android, Apple Healthkit for iOS).</p>",
+        "<p>The app does not provide user registration, thus other personal information is never collected.</p>",
+        "<h2>3. Purpose of processing</h2>",
+        "<p>The project enables territorial and local event marketing, through novel participation and rewarding mechanisms. The app recognizes the value of all those actions that have an intrinsic social value, such as fitness activities. These informations are collected and stored locally on the user’s device and they are never transmitted to any server nor shared with third parties.</p>",
+        "<h2>4. Legal basis of the processing</h2>",
+        "<p>The legal basis of data processing is provided by the freely expressed <strong>consent</strong> of the user, when installing and opening the app on their smartphone. The app provides information about the means and purposes of data processing and then asks for user permission, which is explicitly granted. Consent is provided exclusively for the purposes expressed at point 3 of this document.</p>",
+        "<h2>5. Means of data collection</h2>",
+        "<p>After installing and starting the app on the user’s device, the app will start collection information about the user’s fitness activities through the application programming interfaces provided by Google Fitness or Apple Healthkit, respectively on Android and iOS.</p>",
+        "<h2>6. Duration of data storage</h2>",
+        "<p>Data is collected only as long as the application is installed on the user’s device. Uninstalling the app will remove all collected data.</p>",
+        "<h2>7. Means of processing and transmission of data</h2>",
+        "<p>Data collected by the app is stored exclusively on the user’s device (using <em>local data storage</em>). The data stored is used to provide the user with a diary of their activities. Data is never transmitted.</p>",
+        "<h2>8. Third parties</h2>",
+        "<p>Data collected on the device’s memory (<em>local data storage</em>) is never transmitted to third parties.</p>",
+        "<h2>9. Rights of the data subject</h2>",
+        "<p>According to article 15 and following of the GDPR, the user has the following rights:</p>",
+        "<ul>",
+        "<li>obtain confirmation of the existence of their personal data, accessing it and obtaining a copy of it (<strong>right of access</strong>);</li>",
+        "<li>update, modify and/or correct their personal data (<strong>diritto di rectification</strong>);</li>",
+        "<li>ask the removal or restriction of data processing, as determined by the GDPR (<strong>right of cancellation</strong> e <strong>right to restriction of the processing</strong>);</li>",
+        "<li>oppose the processing, as determined by the GDPR (<strong>right to object</strong>),</li>",
+        "<li>obtain a copy of the data in a common structured format and ask for it to be transmitted to a different Data controller, if technically feasible (<strong>right to portability<</strong>).</li>",
+        "</ul>",
+        "<p>The user also has the right of complaint to the supervisory authorities.</p>",
+        "<p>To exercise these rights, the user may contact the following e-mail address: <a href=\"mailto:info@digit.srl\">info@digit.srl</a> or write to the following address:</p>",
+        "<p>DIGIT s.r.l.<br>Corso Giuseppe Garibaldi,&nbsp;66<br>61029, Urbino&nbsp;(PU)<br>c.a. Responsabile della protezione dati personali</p>",
+        "<h2>10. Updates to the privacy policy</h2>",
+        "<p>This document may be updated in the future. Refer to the last update date at the bottom of the document.</p>"
+      ],
+      "LAST_UPDATE": "Last update"
+    }
+  },
+  "APPLICATIONS": {
+    "SIDENAV": {
+      "TITLE": "Applications",
+      "OVERVIEW": "Overview",
+      "STEPCOUNTER": "Stepcounter",
+      "AWORLD": "AWorld",
+      "UNIVERSITIES": "Universities"
+    },
+    "OVERVIEW": {
+      "TITLE": "List of applications for gaining WOMs",
+      "MAIN_CONTENT": "WOM vouchers can be earned by voluntarily doing a socially useful action. For a WOM to be generated, <b>the activity has to be formally acknowledged by the WOM platform.</b> <br> Volounteers can obtain WOMs through the use of <b>specific applications</b> that recognize the social value of their actions <br> <b>Check out the list of the applications in the side menu!</b>"
+    },
+    "STEPCOUNTER": {
+      "TITLE": "WOM Stepcounter",
+      "MAIN_CONTENT": "Keep track of the steps you take with WOM StepCounter, an app that rewards you for the things you do in your daily life!<br /><br />Thanks to WOM StepCounter you will be able to convert your steps into digital vouchers, that reward social effort. You will receive vouchers if you keep track of more than 3.000 steps per day."
+    },
+    "UNIVERSITIES": {
+      "TITLE": "Universities",
+      "MAIN_CONTENT": "WOM is a project that acknowledges actions that have an intrinsic social value, and exactly because of this it recognizes the effort of each univeristy student in passing their exams Check out which universities will let you earn WOMs for each successful exam. <br>Click on the link of each university for more information:"
+    },
+    "AWORLD": {
+      "TITLE": "AWorld",
+      "MAIN_CONTENT": "AWorld is an App that promotes sustainable living in the modern world. <br> DIGIT SRL has teamed up with AWorld to convert your sustainable living actions into WOMs. Check out the following link for more information:"
+    },
+    "BALANCE": {
+      "TITLE": "Balance - Postural Stability",
+      "MAIN_CONTENT": "Balance - Postural Stability© is an application developed by researchers at the University of Urbino to evaluate your stability by investigating your stabilometric indices with just your smartphone.<br> Measure your postural stability every day to earn WOMs! <br> You can start collecting WOMs after doing a measurement in 2 different days."
+    },
+    "CODYMAZE": {
+      "TITLE": "CodyMaze",
+      "MAIN_CONTENT": "An open-air chessboard of 25 blocks in which the students will move around like robots guided by the instructions that will appear gradually on the smartphone. <br> A labyrinth that is never the same, which appears different to each player and changes at each entry.<br> How to get out of it? By putting into practice the basic principles of coding that you assimilate even while playing! <br> Earn WOMs by having fun!"
+    }
+  },
+  "404": {
+    "TITLE": "Looks like you’re lost",
+    "HOME_BUTTON": "Go Home"
+  },
+  "BILLING": {
+    "RECURRING": {
+      "INTERVAL": {
+        "YEAR": "years",
+        "YEARS": "years",
+        "MONTH": "month",
+        "MONTHS": "months",
+        "WEEK": "week",
+        "WEEKS": "weeks",
+        "DAY": "day",
+        "DAYS": "days"
+      }
+    }
+  }
+}

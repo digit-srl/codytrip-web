@@ -1,0 +1,12 @@
+footer {
+  text-align: center;
+  /*padding-bottom: 0.5em;
+  padding-top: 1em;*/
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+a {
+  color: rgb(220, 120, 50);
+}
+

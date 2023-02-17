@@ -1,0 +1,8 @@
+<div style="width: 100%;">
+  <div class="w-100" #iframeContainer>
+    <ng-container *ngIf="error">
+      Ops! Il video non è stato trovato.
+    </ng-container>
+    <iframe style="width: 100%" width="{{iWidth}}" height="{{iHeight}}" [src]="url" title="CodyTrip Youtube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
