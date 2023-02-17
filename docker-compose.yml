@@ -24,3 +24,21 @@ services:
       options:
         max-size: "30m"
         max-file: "2"
+
+  redirect:
+    image: alpinelinux/darkhttpd
+    command: --port 8080 --forward-all https://codytrip.it
+    networks:
+    - web
+    expose:
+    - "8080"
+    labels:
+    - "traefik.enable=true"
+    - "traefik.docker.network=web"
+    - "traefik.protocol=http"
+    - "traefik.port=8080"
+    - "traefik.frontend.rule=Host:www.codytrip.it"
+    - "traefik.frontend.entryPoints=http,https"
+    restart: unless-stopped
+    logging:
+      driver: "none"
