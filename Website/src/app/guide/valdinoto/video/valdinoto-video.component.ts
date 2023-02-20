@@ -18,6 +18,14 @@ export class ValdinotoVideoComponent {
   iWidth: number = window.innerWidth > 1000 ? 1000 : window.innerWidth;
   iHeight: number = window.innerWidth > 1000 ? 500 : window.innerWidth * 0.5;
 
+  links = {
+    '06': 'Pb0wOBdTA0U', '10': 'Pb0wOBdTA0U', '12': 'Pb0wOBdTA0U', '15': 'Pb0wOBdTA0U', '16': 'Pb0wOBdTA0U',
+    '19': 'Pb0wOBdTA0U', '23': 'Pb0wOBdTA0U', '26': 'Pb0wOBdTA0U', '29': 'Pb0wOBdTA0U', '30': 'Pb0wOBdTA0U',
+    '33': 'Pb0wOBdTA0U', '38': 'Pb0wOBdTA0U', '40': 'Pb0wOBdTA0U', '44': 'Pb0wOBdTA0U', '45': 'Pb0wOBdTA0U',
+    '46': 'Pb0wOBdTA0U', '48': 'Pb0wOBdTA0U', '50': 'Pb0wOBdTA0U', '54': 'Pb0wOBdTA0U', '55': 'Pb0wOBdTA0U',
+    '57': 'Pb0wOBdTA0U', '62': 'Pb0wOBdTA0U'
+  };
+
   private sub: any;
 
   constructor(private route: ActivatedRoute,
@@ -30,18 +38,11 @@ export class ValdinotoVideoComponent {
       this.id = params['id'];
 
       const baseUrl = "https://www.youtube-nocookie.com/embed/";
-      var link = "";
-      switch (this.id) {
-        case "01":
-          link = "Pb0wOBdTA0U";
-          break;
-        case "02":
-          link = "4v84ABX7tiY?start=1514";
-          break;
-        default:
-          this.error = true;
-          break;
+      var link = this.links[this.id];
+      if(link === null || link === undefined) {
+        this.error = true;
       }
+
       this.url = this.sanitazer.bypassSecurityTrustResourceUrl(baseUrl + link)
     });
   }
