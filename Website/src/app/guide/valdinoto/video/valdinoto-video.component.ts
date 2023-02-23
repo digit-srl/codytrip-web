@@ -19,11 +19,10 @@ export class ValdinotoVideoComponent {
   iHeight: number = window.innerWidth > 1000 ? 500 : window.innerWidth * 0.5;
 
   links = {
-    '06': 'Pb0wOBdTA0U', '10': 'Pb0wOBdTA0U', '12': 'Pb0wOBdTA0U', '15': 'Pb0wOBdTA0U', '16': 'Pb0wOBdTA0U',
-    '19': 'Pb0wOBdTA0U', '23': 'Pb0wOBdTA0U', '26': 'Pb0wOBdTA0U', '29': 'Pb0wOBdTA0U', '30': 'Pb0wOBdTA0U',
-    '33': 'Pb0wOBdTA0U', '38': 'Pb0wOBdTA0U', '40': 'Pb0wOBdTA0U', '44': 'Pb0wOBdTA0U', '45': 'Pb0wOBdTA0U',
-    '46': 'Pb0wOBdTA0U', '48': 'Pb0wOBdTA0U', '50': 'Pb0wOBdTA0U', '54': 'Pb0wOBdTA0U', '55': 'Pb0wOBdTA0U',
-    '57': 'Pb0wOBdTA0U', '62': 'Pb0wOBdTA0U'
+    '10': 'IsoSt0ojvT0', '12': '6Up9dPwrTag', '15': 'nrEE5BaGLe0', '16': 'tqKvIKL16lU', '19': 'J7RiJSnvi_E',
+    '23': '-i3kknRXc5o', '26': 'ccbLZh2nrwE', '29': '897hSodGr0g', '30': '_iqoqS2WDWY', '33': 'Qh5qT0YCly4',
+    '38': 'hVbI38a_0Oo', '40': 'ugxfa2QblGU', '44': 'fQsVcJQ4aqk', '46': 'e23kcbivH8g', '48': 'GWGPamoeEXg',
+    '50': 'CFamJ4Zyny0', '54': 'UKVtelxw1XE', '55': '1n2jC5YH9fM', '57': 'alPR6XJD4j8', '62': 'n5mANzI-be0'
   };
 
   private sub: any;
@@ -37,6 +36,8 @@ export class ValdinotoVideoComponent {
       this.error = false;
       this.id = params['id'];
 
+      if(this.id === "06")
+        this.navigateExternal('https://codemooc.org/codytrip-2022-modica/');
       const baseUrl = "https://www.youtube-nocookie.com/embed/";
       var link = this.links[this.id];
       if(link === null || link === undefined) {
